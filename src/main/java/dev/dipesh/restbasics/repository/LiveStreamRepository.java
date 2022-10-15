@@ -6,8 +6,11 @@ import java.util.List;
 import java.util.UUID;
 
 
+import org.springframework.stereotype.Repository;
+
 import dev.dipesh.restbasics.model.Livestream;
 
+@Repository
 public class LiveStreamRepository {
     List<Livestream> streams = new ArrayList<>();
 
